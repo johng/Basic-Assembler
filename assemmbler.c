@@ -2,9 +2,39 @@
 #include <stdlib.h>
 
 char* readline(char * line){
-	char * ptr = line;
-	if(*ptr == ';'){ 
+	
+	char *output;
+	output = (char *)malloc(8);
+
+	if(*line == ';' ){
+
 		return NULL;
+	}
+	
+	if(*line == ':'){
+
+	}
+
+	//If not ':' or ';' split string into tokens
+
+	char *token = strtok(line," ");
+
+	if(token == "INC"){
+
+
+	}else if(token == "DEC"){
+
+	}else if(token == "JNZ"){
+
+
+	}else if(token == "JNEG"){
+
+
+	}else if(token == "STR"){
+
+	}else if(token == "LDR"){
+
+
 	}
 
 	
