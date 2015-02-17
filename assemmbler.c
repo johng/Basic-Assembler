@@ -12,7 +12,7 @@ char* readline(char * line){
 	}
 	
 	if(*line == ':'){
-
+		printf("change");
 	}
 
 	//If not ':' or ';' split string into tokens
